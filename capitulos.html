@@ -1,33 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Capítulos - Friends</title>
+    <link rel="stylesheet" href="css/estiloprincipal.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: white;
+        }
+        header {
+            background-color: #000;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #FFD700;
+            font-weight: bold;
+        }
+        h1 {
+            font-family: 'Comic Sans MS', cursive;
+            color: #FF4500;
+        }
+        main {
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .portada {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .portada img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        main ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        main ul li {
+            margin: 8px 0;
+        }
+        main ul li a {
+            text-decoration: none;
+            color: #FFD700;
+        }
+        h2 {
+            color: #FFD700;
+            margin-top: 30px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #E0E0E0;
+        }
+        footer {
+            background-color: #FFD700;
+            color: black;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="capitulos.html">Capitulos</a></li>
+                <li><a href="capitulos.html">Capítulos</a></li>
                 <li><a href="personajes.html">Personajes</a></li>
             </ul>
         </nav>
-        <h1>Mi serie favorita</h1>
+        <h1>Capítulos y Temporadas</h1>
     </header>
-    
     <main>
+        <!-- Imagen de portada -->
+        <div class="portada">
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/d6/Friends_season_one_cast.jpg" alt="Portada Friends">
+        </div>
+        <!-- Índice de temporadas -->
         <ul>
-            <li><a href="#capitulo1">capitulo 1</a></li>
-            <li><a href="#capitulo2">capitulo 2</a></li>
+            <li><a href="#temp1">Temporada 1</a></li>
+            <li><a href="#temp2">Temporada 2</a></li>
+            <li><a href="#temp3">Temporada 3</a></li>
+            <li><a href="#temp4">Temporada 4</a></li>
+            <li><a href="#temp5">Temporada 5</a></li>
+            <li><a href="#temp6">Temporada 6</a></li>
+            <li><a href="#temp7">Temporada 7</a></li>
+            <li><a href="#temp8">Temporada 8</a></li>
+            <li><a href="#temp9">Temporada 9</a></li>
+            <li><a href="#temp10">Temporada 10</a></li>
         </ul>
-        
+        <!-- Contenido de temporadas -->
+        <h2 id="temp1">Temporada 1</h2>
+        <p>Se estrenó en 1994 y nos presenta a los seis amigos en Nueva York. Central Perk se convierte en su lugar de encuentro.</p>
+        <h2 id="temp2">Temporada 2</h2>
+        <p>Las relaciones se vuelven más intensas, especialmente entre Ross y Rachel.</p>
+        <h2 id="temp3">Temporada 3</h2>
+        <p>La relación Ross-Rachel enfrenta dificultades y aparecen nuevos conflictos.</p>
+        <h2 id="temp4">Temporada 4</h2>
+        <p>Incluye bodas, viajes y giros inesperados que marcan la historia.</p>
+        <h2 id="temp5">Temporada 5</h2>
+        <p>Se desarrolla la relación entre Monica y Chandler, que se vuelve fundamental.</p>
+        <h2 id="temp6">Temporada 6</h2>
+        <p>Los personajes enfrentan cambios importantes en sus vidas personales y laborales.</p>
+        <h2 id="temp7">Temporada 7</h2>
+        <p>La boda de Monica y Chandler es el evento central de esta temporada.</p>
+        <h2 id="temp8">Temporada 8</h2>
+        <p>Rachel enfrenta el reto de la maternidad, mientras la amistad sigue siendo clave.</p>
+        <h2 id="temp9">Temporada 9</h2>
+        <p>Los personajes toman decisiones importantes para su futuro.</p>
+        <h2 id="temp10">Temporada 10</h2>
+        <p>La última temporada cierra con la despedida en el icónico apartamento de Monica.</p>
     </main>
-
     <footer>
-        <p>Derechos reservados</p>
+        <p>Derechos reservados © 2025</p>
     </footer>
-    
 </body>
 </html>
